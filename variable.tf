@@ -48,10 +48,8 @@ variable "rds_sg_name" {
     type = string
 }
 
-variable "private_subnet" {
-  
-}
+variable "private_subnet" {}
 
-variable "public_subnet" {
-  
-}
+variable "public_subnet" {}
+
+variable "db_name" {}
